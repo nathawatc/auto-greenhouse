@@ -302,6 +302,9 @@ Open the [main.cpp](https://github.com/Scott-Nx/Automatic-Greenhouse-System/blob
 
 ## Troubleshooting
 
+<details>
+<summary>Click to expand troubleshoot guide</summary>
+
 ### Problem: LCD Not Displaying
 
 **Symptom**: LCD shows nothing or only shows squares
@@ -387,3 +390,5 @@ Open the [main.cpp](https://github.com/Scott-Nx/Automatic-Greenhouse-System/blob
 1. Check the water pump/fan wiring to Relay
 2. Check the power supply for water pump/fan
 3. Test the water pump/fan directly with the power supply
+
+</details>
