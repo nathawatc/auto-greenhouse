@@ -81,7 +81,7 @@ _ขั้วลบ (-) ของอุปกรณ์ ต่อเข้าก�
 
 ### สำหรับ Windows
 
-1. ไปที่เว็บไซต์ https://www.arduino.cc/en/software
+1. ไปที่เว็บไซต์ <https://www.arduino.cc/en/software>
 2. คลิก **"Windows Win 10 and newer, 64 bits"**
 3. คลิก **"Just Download"** (ไม่ต้องบริจาคก็ได้)
 4. เปิดไฟล์ที่ดาวน์โหลดมา แล้วทำตามขั้นตอนการติดตั้ง
@@ -90,7 +90,7 @@ _ขั้วลบ (-) ของอุปกรณ์ ต่อเข้าก�
 
 ### สำหรับ macOS
 
-1. ไปที่เว็บไซต์ https://www.arduino.cc/en/software
+1. ไปที่เว็บไซต์ <https://www.arduino.cc/en/software>
 2. คลิก **"macOS"**
 3. คลิก **"Just Download"**
 4. เปิดไฟล์ .dmg ที่ดาวน์โหลดมา
@@ -98,10 +98,11 @@ _ขั้วลบ (-) ของอุปกรณ์ ต่อเข้าก�
 
 ### สำหรับ Linux
 
-1. ไปที่เว็บไซต์ https://www.arduino.cc/en/software
+1. ไปที่เว็บไซต์ <https://www.arduino.cc/en/software>
 2. คลิก **"Linux AppImage 64 bits"**
 3. เปิด Terminal แล้วพิมพ์:
-   ```
+
+   ```text
    chmod +x arduino-ide_*_Linux_64bit.AppImage
    ./arduino-ide_*_Linux_64bit.AppImage
    ```
@@ -158,7 +159,7 @@ constexpr uint8_t LCD_I2C_ADDRESS = 0x27;  // เปลี่ยนเป็น 
 
 ### 4.3 คัดลอกโค้ด
 
-1. เปิดไฟล์ [main.cpp](https://github.com/Scott-Nx/Automatic-Greenhouse-System/blob/main/main.cpp) ในโปรเจกต์นี้
+1. เปิดไฟล์ [main.cpp](src/main.cpp) ในโปรเจกต์นี้
 2. เลือกทั้งหมด (กด `Ctrl + A`)
 3. คัดลอก (กด `Ctrl + C`)
 4. กลับไปที่ Arduino IDE
@@ -219,14 +220,14 @@ constexpr uint8_t LCD_I2C_ADDRESS = 0x27;  // เปลี่ยนเป็น 
 
 **หน้าจอเริ่มต้น (2 วินาทีแรก):**
 
-```
+```text
 🌱 Greenhouse
 System v2.1
 ```
 
 **หน้าจอแสดงสถานะ:**
 
-```
+```text
 🌱M: 65% OK
 IDLE       123s
 ```
@@ -254,7 +255,7 @@ IDLE       123s
 
 จะเห็นข้อความแสดงค่าความชื้นและสถานะของระบบ เช่น:
 
-```
+```text
 =====================================
 ระบบโรงเรือนอัตโนมัติ เริ่มทำงาน
 Automatic Greenhouse System Started
@@ -271,7 +272,7 @@ Automatic Greenhouse System Started
 
 ### ค่าที่สามารถปรับได้
 
-เปิดไฟล์ [main.cpp](https://github.com/Scott-Nx/Automatic-Greenhouse-System/blob/main/main.cpp) แล้วหาบรรทัดต่อไปนี้:
+เปิดไฟล์ [main.cpp](src/main.cpp) แล้วหาบรรทัดต่อไปนี้:
 
 ```cpp
 #define MOISTURE_DRY_THRESHOLD    700   // ค่าขีดจำกัดดินแห้ง

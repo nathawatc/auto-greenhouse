@@ -55,9 +55,9 @@
 | SDA     | A4                 | Data Line (I2C)  |
 | SCL     | A5                 | Clock Line (I2C) |
 
-> [!TIP]
-> **Note**: The I2C address of the LCD is typically `0x27` or `0x3F` depending on the model.
-> If unsure, you can use the I2C Scanner program to check the address.
+> [!TIP] **Note**: The I2C address of the LCD is typically `0x27` or `0x3F`
+> depending on the model. If unsure, you can use the I2C Scanner program to
+> check the address.
 
 ### 1.4 Connect the Water Pump and Fan
 
@@ -74,8 +74,8 @@
 
 _The Device Negative (-) connects directly to the Power Supply (-)._
 
-> [!WARNING]
-> Be careful about polarity, and use a separate power supply for the water pump and fan.
+> [!WARNING] Be careful about polarity, and use a separate power supply for the
+> water pump and fan.
 
 ---
 
@@ -83,7 +83,7 @@ _The Device Negative (-) connects directly to the Power Supply (-)._
 
 ### For Windows
 
-1. Go to https://www.arduino.cc/en/software
+1. Go to <https://www.arduino.cc/en/software>
 2. Click **"Windows Win 10 and newer, 64 bits"**
 3. Click **"Just Download"** (donation is optional)
 4. Open the downloaded file and follow the installation steps
@@ -92,7 +92,7 @@ _The Device Negative (-) connects directly to the Power Supply (-)._
 
 ### For macOS
 
-1. Go to https://www.arduino.cc/en/software
+1. Go to <https://www.arduino.cc/en/software>
 2. Click **"macOS"**
 3. Click **"Just Download"**
 4. Open the downloaded .dmg file
@@ -100,10 +100,11 @@ _The Device Negative (-) connects directly to the Power Supply (-)._
 
 ### For Linux
 
-1. Go to https://www.arduino.cc/en/software
+1. Go to <https://www.arduino.cc/en/software>
 2. Click **"Linux AppImage 64 bits"**
 3. Open Terminal and type:
-   ```
+
+   ```text
    chmod +x arduino-ide_*_Linux_64bit.AppImage
    ./arduino-ide_*_Linux_64bit.AppImage
    ```
@@ -160,7 +161,7 @@ Double-click the Arduino IDE icon on the desktop or in the program menu.
 
 ### 4.3 Copy the Code
 
-1. Open the [main.cpp](https://github.com/Scott-Nx/Automatic-Greenhouse-System/blob/main/main.cpp) file in this project
+1. Open the [main.cpp](src/main.cpp) file in this project
 2. Select all (press `Ctrl + A`)
 3. Copy (press `Ctrl + C`)
 4. Go back to Arduino IDE
@@ -192,8 +193,8 @@ Use a USB Type-B cable to connect the Arduino Uno to your computer.
    - macOS: Will be `/dev/cu.usbmodem...`
    - Linux: Will be `/dev/ttyACM0` or `/dev/ttyUSB0`
 
-> [!TIP]
-> **If you don't see the Port**: Try unplugging and replugging the USB cable, or try a different USB port.
+> [!TIP] **If you don't see the Port**: Try unplugging and replugging the USB
+> cable, or try a different USB port.
 
 ---
 
@@ -221,14 +222,14 @@ After uploading the code, the LCD will display:
 
 **Startup Screen (first 2 seconds):**
 
-```
+```text
 🌱 Greenhouse
 System v2.1
 ```
 
 **Status Screen:**
 
-```
+```text
 🌱M: 65% OK
 IDLE       123s
 ```
@@ -256,7 +257,7 @@ In the bottom right corner of the Serial Monitor, select **"9600 baud"**
 
 You will see messages displaying moisture values and system status, such as:
 
-```
+```text
 =====================================
 ระบบโรงเรือนอัตโนมัติ เริ่มทำงาน
 Automatic Greenhouse System Started
@@ -273,7 +274,7 @@ Automatic Greenhouse System Started
 
 ### Configurable Values
 
-Open the [main.cpp](https://github.com/Scott-Nx/Automatic-Greenhouse-System/blob/main/main.cpp) file and find the following lines:
+Open the [main.cpp](src/main.cpp) file and find the following lines:
 
 ```cpp
 #define MOISTURE_DRY_THRESHOLD    700   // Dry soil threshold

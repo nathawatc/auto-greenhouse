@@ -1,6 +1,8 @@
 # Contributing
 
-Thank you for your interest in contributing to this project! Before contributing, please read this document carefully to understand how contributions work under our license.
+Thank you for your interest in contributing to this project! Before
+contributing, please read this document carefully to understand how
+contributions work under our license.
 
 ## License Information
 
@@ -16,7 +18,9 @@ Under the CC BY-NC-ND 4.0 license:
 
 ## How to Contribute
 
-Due to the NoDerivatives clause of our license, traditional open-source contributions (pull requests with code modifications) work differently for this project.
+Due to the NoDerivatives clause of our license, traditional open-source
+contributions (pull requests with code modifications) work differently for this
+project.
 
 ### Acceptable Contributions
 
@@ -39,4 +43,5 @@ If you wish to contribute code changes:
 
 ---
 
-_By contributing to this project, you acknowledge that you have read and agree to these terms._
+_By contributing to this project, you acknowledge that you have read and agree
+to these terms._
